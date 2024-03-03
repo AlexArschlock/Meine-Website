@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(32, 31, 31);
 }
 
 .TOP{
@@ -7,8 +7,9 @@ body{
     text-align: center;
    
     font-size: 25px;
+    font-family: Fantasy;
     
-    color:white;
+    color:wheat;
     
 
     cursor: pointer;
@@ -25,12 +26,13 @@ body{
 .MAIN_TEXT{
     font-size:  25px;
     text-align: center;
+    font-family: Fantasy;
 
-    margin-top: -20px;
-    margin-left: 20%;
-    margin-right: 20%;
-    padding: 2%;
-
+    margin-top: -30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 1.5%;
+    min-width: 50%;
     background-color: grey;
     color: beige;
 
@@ -38,22 +40,28 @@ body{
 }
 
 .MAIN_TEXT h2{
-    text-align: left;
+    text-align: center;
     font-size: 40px;
-    color: white;
-    
+
+    margin: 10px;
+   
+    color: wheat;
+    text-decoration: underline;
+
+    background-color: black;
 }
 
 .MAIN_TEXT img{
 
     width: 35%;
+    margin: 5px;
     padding: 2%;
 }
 
 .MAIN_TEXT button{
    
-   margin: 5px;
-   padding: 3px;
+   margin: 1.5%;
+   padding: 1.5%;
    
 }
 
