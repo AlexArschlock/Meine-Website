@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(32, 32, 32);
+}
+
+.TOP{
+    background: darkgrey;
+    text-align: center;
+   
+    font-size: 25px;
+    
+    color:white;
+    
+
+    cursor: pointer;
+}
+
+.TOP img{
+    position: relative;
+    height: 40px;
+    right: 500px;
+    top: -80px;
+}
+
+
+.MAIN_TEXT{
+    font-size:  25px;
+    text-align: center;
+
+    margin-top: -20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 2%;
+
+    background-color: grey;
+    color: beige;
+
+
+}
+
+.MAIN_TEXT h2{
+    text-align: left;
+    font-size: 40px;
+    color: white;
+    
+}
+
+.MAIN_TEXT img{
+
+    width: 35%;
+    padding: 2%;
+}
+
+.MAIN_TEXT button{
+   
+   margin: 5px;
+   padding: 3px;
+   
+}
+
+@media only screen and (max-width: 768px) {
+    .MAIN_TEXT {
+        font-size: 20px; 
+    }
+    .MAIN_TEXT h2{
+        text-align: center;
+    }
+    .MAIN_TEXT button{
+        font-size: 15px;
+    }
+    .MAIN_TEXT img {
+        width: 100%;
+
+    }
+}
